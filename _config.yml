@@ -68,6 +68,7 @@ phases:
         plural: abandonnées
       description: Le service a été abandonné en cours de construction. L'abandon est expliqué pour capitaliser sur l'expérience accumulée.
 
+# This is used in /communaute.html, stashed here because default whitespace rules are inimical to complex YAML
 hire_card:
   id: recrutement
   fullname: Vous ?
