@@ -1,0 +1,23 @@
+{
+  "name": "beta.gouv.fr",
+  "version": "1.0.0",
+  "description": "Le site public de l'Incubateur de Services Numériques de l'État français.",
+  "main": "index.js",
+  "dependencies": {
+    "eclint": "^1.1.5"
+  },
+  "scripts": {
+    "test": "find . -type d \\( -path ./_site -o -path ./.git -o -path ./img \\) -prune -o -print | xargs eclint check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgmap/beta.gouv.fr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "AGPL-1.0",
+  "bugs": {
+    "url": "https://github.com/sgmap/beta.gouv.fr/issues"
+  },
+  "homepage": "https://beta.gouv.fr"
+}
